@@ -35,7 +35,7 @@ pipeline {
                     //WriteYaml Overwrite)
                     writeYaml file: "release.yml", data: release, overwrite: true
                     echo "Hago una modificacion en la rama feature"
-                    
+                    echo "Hago un cambio en implementacion de la rampa develop"
 
                 }
             }
