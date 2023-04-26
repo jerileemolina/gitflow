@@ -34,6 +34,7 @@ pipeline {
                     // Meter los datos de la variable en un archivo nuevo llamado igual, y lo sobreescribe
                     //WriteYaml Overwrite)
                     writeYaml file: "release.yml", data: release, overwrite: true
+                    echo "Hago una modificacion en la rama feature"
                     
 
                 }
